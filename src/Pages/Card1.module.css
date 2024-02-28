@@ -1,0 +1,271 @@
+.main_content{
+    text-align: left;
+    padding: 20px 300px;
+}
+
+.main_content p{
+    font-size: 50px;
+    color: #2C384A;
+    padding: 0px;
+    margin: 0px;
+}
+.updates{
+    display: flex;
+    justify-content: space-between;
+}
+.updates_line{
+    display: flex;
+    
+}
+
+.updates_line p{
+    font-size: 15px;
+    color: #4B5665;
+    margin-left: 10px;
+    padding: 2px;
+}
+.updates_line img{
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+.image3{
+    margin-left: 30px;
+}
+hr{
+    color: #E1E4E6;
+}
+.updates_last{
+    display: flex;
+
+}
+.updates_last p, .tools p, .tools2 p{
+    font-size: 15px;
+    color: #4B5665;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.tools{
+    
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    padding: 10px;
+}
+
+.tools2{
+    display: flex;
+    max-width: 700px;
+    padding: 10px;
+}
+.tools2 img{
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
+    margin-right: 4px;
+    margin-left: 10px;
+}
+
+.best_choice{
+    display: flex;
+    background-color: #FF7724;
+    width: 120px;
+    padding: 5px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.best_choice p{
+    font-size: 15px;
+    margin-left: 8px;
+    color: white;
+
+}
+.card{
+    display: flex;
+    height: 255px;
+    margin-top: 5px;
+
+}
+.card span{
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #626E79;
+    font-size: 20px;
+}
+.card_img{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+
+.card_img img{
+    margin-bottom: 10px;
+}
+.card_img label{
+    color: #4B5665;
+}
+.card_content{
+    display: block;
+    width: 450px;
+    
+}
+
+ 
+
+.card_content p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #4B5665;
+}
+
+.card_content .para2{
+    margin-left: 20px;
+    width: 420px;
+}
+.card_content  .bold_text{
+    font-weight: bold;
+    font-size: 15px;
+    color: #4B5665;
+}
+
+.show_text{
+    display: flex;
+    
+}
+
+.show_text img{
+    width: 20px;
+    height: 20px;
+}
+.show_text p{
+    color: #1B88F4;
+    margin-right: 2px;
+}
+
+.content_side{
+    display: block;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.rating{
+    width: 90px;
+    height: 100px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    background-color: #F3F9FF;
+    padding: 12px;
+    border-radius: 10px;
+}
+.content_side p{
+    font-size: 15px;
+}
+
+.rating p{
+    color: #074786;
+}
+.rating .num{
+    font-size: 30px;
+    font-weight: light;
+
+}
+
+.i_img{
+    display: flex;
+    justify-content: end;
+}
+.i_img img{
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+}
+
+.content_side button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    width: 200px;
+    background-color: #1B88F4;
+    padding: 20px;
+    color: white;
+    border-radius: 12px;
+    border: 1px solid #1B88F4;
+    font-size: 20px;
+}
+.main_box{
+    background-color:#FFF4ED;
+    padding: 12px 15px 4px 8px;
+    border-radius:12px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.main_box span{
+    font-size: 15px;
+    width: 40px;
+    height:28px;
+    background-color:white;
+    color: #1B88F4;
+    border-radius: 6px;
+    padding: 5px;
+    
+}
+.rows{
+    margin: 0px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content_side .card4_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    width: 200px;
+    background-color: #1B88F4;
+    padding: 20px;
+    color: white;
+    border-radius: 12px;
+    border: 1px solid #1B88F4;
+    font-size: 20px;
+    margin-top: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .main_content {
+        padding: 10px;
+    }
+
+    .updates_line img {
+        width: 0.625rem;
+        height: 0.625rem;
+    }
+
+    .updates_last p,
+    .tools p,
+    .tools2 p {
+        font-size: 0.875rem;
+    }
+
+    .tools,
+    .tools2 {
+        max-width: 100%;
+    }
+
+    .tools p,
+    .tools2 p {
+        width: 50%;
+    }
+
+    .card_img {
+        margin-bottom: 0.5rem;
+        margin-right: 0;
+    }
+}

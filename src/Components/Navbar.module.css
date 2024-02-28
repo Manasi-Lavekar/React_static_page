@@ -1,0 +1,36 @@
+.nav_components{
+    height: 64px;
+    width: 100%;
+    margin: 0px;
+    background-color: #212731;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.search{
+    height: 17px;
+    width: 248px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 360px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.first_two , .last_one{
+    margin-top: 5px;
+    font-weight: light;
+    color: #D1D6DA;
+}
+
+.first_two{
+    display: flex;
+}
+.first_two p{
+    margin-right: 70px;
+}
+.last_one{
+    margin-right: 170px;
+}
+
